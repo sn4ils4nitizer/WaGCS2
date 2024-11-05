@@ -12,33 +12,33 @@ class Character {
     std::string keywords;
 
     // //attributes
-    // int strength;
-    // int troughness;
+    int strength;
+    int troughness;
     
 
-    // int willpower;
-    // int intelligence;
-    // int fellowship;
+    int willpower;
+    int intelligence;
+    int fellowship;
 
     // //skills
-    // int athletics;
-    // int awerness;
-    // int ballisticSkill;
-    // int cunning;
-    // int deception;
-    // int insight;
-    // int intimidation;
-    // int investigation;
-    // int leadership;
-    // int medicae;
-    // int persuasion;
-    // int pilot;
-    // int psychicMastery;
-    // int scholar;
-    // int stealth;
-    // int survival;
-    // int tech;
-    // int weaponSkill;
+    int athletics;
+    int awerness;
+    int ballisticSkill;
+    int cunning;
+    int deception;
+    int insight;
+    int intimidation;
+    int investigation;
+    int leadership;
+    int medicae;
+    int persuasion;
+    int pilot;
+    int psychicMastery;
+    int scholar;
+    int stealth;
+    int survival;
+    int tech;
+    int weaponSkill;
 
     //inventories
 
@@ -55,12 +55,7 @@ class Character {
     public:
 
     //Constructor
-    Character(){
-        name = "";
-        faction = "";
-        keywords = "";
-        species = "";
-    }
+    Character(){}
 
     //Getters
     std::string getName(){
